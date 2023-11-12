@@ -18,7 +18,7 @@ body {
 }
 
 .half-width {
-    height: 570px;
+    height: 670px;
     background: #222436;
     padding: 30px;
     text-align: center;
@@ -87,7 +87,7 @@ cursor: pointer;
 .blink-me {
 color: #E0B612;
 }
-.submit-btn {
+.calculate-btn {
     border: none;
     margin-top: 20px;
     padding: 10px 120px;
