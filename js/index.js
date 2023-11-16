@@ -1,9 +1,11 @@
 getElementById('calculator-container').addEventListener('click', function(e) {
-    if(e.target.innerText !== 'C') {
-        getElementById('calculator-input').value = getElementById('calculator-input').value + e.target.innerText;
-    } else {
-        getElementById('calculator-input').value = '';
-    }
+    if(e.target.className === 'button') {
+        if(e.target.innerText !== 'C') {
+            getElementById('calculator-input').value = getElementById('calculator-input').value + e.target.innerText;
+        } else {
+            getElementById('calculator-input').value = '';
+        }
+    } 
 })
 
 getElementById('calculate').addEventListener('click',function(){
